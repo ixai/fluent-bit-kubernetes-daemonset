@@ -23,6 +23,8 @@ spec:
             value: "elasticsearch-logging"
           - name:  FLUENT_ELASTICSEARCH_PORT
             value: "9200"
+          - name: FLUENT_LOGSTASH_PREFIX
+            value: "logstash"
         resources:
           limits:
             memory: 100Mi
